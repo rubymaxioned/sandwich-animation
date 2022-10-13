@@ -667,6 +667,42 @@ div p {
 /*end of fourth section animation*/
 
 /*fifth section animation*/
+.fifth-section li:nth-of-type(1) {
+  position: relative;
+  left: 282%;
+  bottom: 85px;
+  animation-name: chef;
+  animation-duration: 2s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes chef {
+  from {
+    left: 282%;
+  }
+  to {
+    left: 180%;
+  }
+}
+
+.fifth-section div {
+  position: relative;
+  left: 52%;
+  bottom: 94px;
+  animation-name: veg-mayo;
+  animation-duration: 2s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+@keyframes veg-mayo {
+  from {
+    left: 52%;
+  }
+  to {
+    left: 159%;
+  }
+}
 /*end of fifth section animation*/
 
 /*sixth section animation*/
