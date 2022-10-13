@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,23 +98,38 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
-input[type='button'],
-input[type='submit'],
-button { cursor: pointer; }
+input[type="button"],
+input[type="submit"],
+button {
+  cursor: pointer;
+}
 
 strong {
   font-weight: bold;
@@ -48,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -64,8 +155,12 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -0.7em;
+}
+sub {
+  bottom: -0.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -76,8 +171,12 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -85,52 +184,277 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
 /* Common styling */
-.grey { color: #666; }
-.cap { text-transform: capitalize; }
-.up { text-transform: uppercase; }
-.center { text-align: center; }
-.bold { font-weight: bold; }
-.transition { transition: 1s all ease; }
+.grey {
+  color: #666;
+}
+.cap {
+  text-transform: capitalize;
+}
+.up {
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.transition {
+  transition: 1s all ease;
+}
 
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 86%; 
+  width: 86%;
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+/* ul li p { text-indent: -9999px; } */
+main .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.card {
+  position: relative;
+  background: url(/assets/Images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 90vh;
+  border: 1px solid #808080;
+  /* overflow: hidden; */
+}
 
+ul li img {
+  width: 77%;
+}
 
+/*first section*/
+.first-section {
+  position: absolute;
+  left: -165%;
+}
 
+.first-section li:nth-of-type(1) {
+  position: relative;
+  left: 116%;
+  bottom: 18px;
+}
 
+.first-section li:nth-of-type(2) {
+  position: relative;
+  top: 349px;
+  left: 69.5%;
+}
+/*end of first section*/
+
+/*second section*/
+.second-section {
+  position: absolute;
+  left: -86%;
+  top: 145px;
+}
+
+.second-section div p {
+  position: relative;
+  text-transform: capitalize;
+  color: #dd5353;
+  font-weight: 903px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  left: -36%;
+  bottom: 57px;
+}
+
+.second-section li:nth-of-type(1) {
+  position: relative;
+  top: 159px;
+}
+
+.second-section li:nth-of-type(2) {
+  position: relative;
+  bottom: 111px;
+}
+/*end of second section*/
+
+/*third section*/
+.third-section {
+  position: absolute;
+  right: -194%;
+  display: flex;
+  flex-direction: column;
+}
+/*end of third section*/
+
+/*fourth section*/
+.fourth-section {
+  position: absolute;
+  right: -120%;
+}
+/*end of fourth section*/
+
+/*fifth section*/
+.fifth-section {
+  position: absolute;
+  left: -169%;
+  top: 172px;
+}
+
+.sixth-section {
+  position: absolute;
+  right: -163%;
+  top: 251px;
+}
+/*end of fifth section*/
+
+/*animation start*/
+
+/*first section animation*/
+
+.first-section li:nth-of-type(2) img {
+  opacity: 0.2;
+  animation-name: table;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes table {
+  25% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+.first-section li p,
+.second-section li p {
+  text-indent: -9999px;
+}
+/*end of first section animation*/
+
+/*second section animation*/
+
+.second-section li:nth-of-type(1) {
+  left: -16%;
+  animation-name: plate;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes plate {
+  from {
+    left: -16%;
+  }
+  to {
+    left: 41%;
+  }
+}
+
+.second-section li:nth-of-type(2) {
+  left: 118%;
+  animation-name: sad-sonali;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sad-sonali {
+  from {
+    right: 5%;
+  }
+  to {
+    left: 62.5%;
+  }
+}
+
+.second-section div p {
+  width: 25%;
+  left: -36%;
+  animation-name: sad-sonali;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes boring {
+  from {
+    left: -36%;
+  }
+  to {
+    right: -24%;
+  }
+}
+/*end of second section animation*/
+
+/*third section animation*/
+
+.third-section li:nth-of-type(1) {
+  position: relative;
+  top: 354px;
+  right: 654px;
+}
+
+.third-section li:nth-of-type(2) {
+  position: relative;
+  right: 624px;
+  top: 284px;
+}
+
+.third-section li:nth-of-type(2) img {
+  width: 50%;
+}
+/*end of third section animation*/
+
+/*fourth section animation*/
+/*end of fourth section animation*/
+
+/*fifth section animation*/
+/*end of fifth section animation*/
+
+/*sixth section animation*/
+/*end of sixth section animation*/
+
+/*animation end*/
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
 =================================*/
-
-
-
-
-
-
-
 
 /*=================================
   main styling ends here
@@ -138,22 +462,13 @@ li {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
-
-
-
-
-
-
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-
-
-}  
+}
