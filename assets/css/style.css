@@ -695,7 +695,7 @@ div p {
   animation-delay: 12s;
   animation-fill-mode: forwards;
 }
-@keyframes veg-mayo {
+@keyframes food {
   from {
     left: 52%;
   }
@@ -703,9 +703,45 @@ div p {
     left: 159%;
   }
 }
+
 /*end of fifth section animation*/
 
 /*sixth section animation*/
+.sixth-section div {
+  position: relative;
+  bottom: 173px;
+  right: 168%;
+  animation-name: food;
+  animation-duration: 2s;
+  animation-delay: 14s;
+  animation-fill-mode: forwards;
+}
+@keyframes food {
+  from {
+    right: 168%;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.sixth-section li:nth-of-type(2) {
+  position: relative;
+  bottom: 18px;
+  right: 14%; /*80*/
+  animation-name: bottle;
+  animation-duration: 2s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+@keyframes veg-mayo {
+  from {
+    right: 14%;
+  }
+  to {
+    right: 80%;
+  }
+}
 /*end of sixth section animation*/
 
 /*animation end*/
