@@ -245,8 +245,8 @@ main .wrapper {
   width: 25%;
   height: 90vh;
   border: 1px solid #808080;
-  /* 
-  overflow: hidden; */
+
+  overflow: hidden;
 }
 
 ul li img {
@@ -423,12 +423,6 @@ div p {
   100% {
     left: -16%;
   }
-  /* from {
-    left: -16%;
-  }
-  to {
-    left: 41%;
-  } */
 }
 
 .second-section li:nth-of-type(2) {
@@ -507,12 +501,6 @@ div p {
   100% {
     right: 654px;
   }
-  /* from {
-    right: 654px;
-  }
-  to {
-    right: 479px;
-  } */
 }
 
 .third-section li:nth-of-type(2) {
@@ -539,12 +527,6 @@ div p {
   100% {
     right: 624px;
   }
-  /* from {
-    right: 624px;
-  }
-  to {
-    right: 451px;
-  } */
 }
 
 .third-section li:nth-of-type(3) {
@@ -556,26 +538,6 @@ div p {
 }
 
 @keyframes sandwich3 {
-  /* 0% {
-    right: 621px;
-    top: 215px;
-  }
-  11% {
-    right: 445px;
-    top: 215px;
-  }
-  60% {
-    right: 445px;
-    top: 215px;
-  }
-  80% {
-    top: 180px;
-    right: 445px;
-  }
-  100% {
-    top: 215px;
-    right: 445px;
-  } */
   0% {
     right: 621px;
     top: 215px;
