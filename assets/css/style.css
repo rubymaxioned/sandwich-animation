@@ -763,6 +763,26 @@ div p {
 
 /*end of fifth section animation*/
 
+.sixth-section li:nth-of-type(1)
+{
+  position: relative;
+    right: 130%;
+    bottom: 309px;
+    font-size: 20px;
+    background-color: #5C2E7E;
+    color: #fff;
+    /* padding: 6px 17px; */
+    border-radius: 6px;
+}
+
+/* .sixth-section li a
+{
+  background-color: #5C2E7E;
+    color: #fff;
+    padding: 6px 17px;
+    border-radius: 6px;
+} */
+
 .sixth-section li:nth-of-type(2) {
   position: relative;
   bottom: 32px;
@@ -796,7 +816,7 @@ div p {
     right: 168%;
   }
   to {
-    right: 100%;
+    right: 90%;
   }
 }
 
@@ -811,12 +831,21 @@ div p {
 }
 
 @keyframes hat {
-  from {
+  0% { right: 50%; }
+  25% { right: 117%; }
+  50% { 
+    transform: translateY(10px);
+    right: 117%;
+   }
+  100% { transform: translateY(60px);
+    right: 117%;
+   }
+  /* from {
     right: 50%;
   }
   to {
     right: 115%;
-  }
+  } */
 }
 
 
