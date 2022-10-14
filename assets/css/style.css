@@ -245,8 +245,8 @@ main .wrapper {
   width: 25%;
   height: 90vh;
   border: 1px solid #808080;
-
-  /* overflow: hidden; */
+  /* 
+  overflow: hidden; */
 }
 
 ul li img {
@@ -394,7 +394,8 @@ div p {
 .second-section li p,
 .third-section li p,
 .fourth-section li p,
-.fifth-section li p {
+.fifth-section li p,
+.sixth-section li p {
   text-indent: -9999px;
 }
 /*end of first section animation*/
@@ -763,16 +764,15 @@ div p {
 
 /*end of fifth section animation*/
 
-.sixth-section li:nth-of-type(1)
-{
+.sixth-section li:nth-of-type(1) {
   position: relative;
-    right: 130%;
-    bottom: 309px;
-    font-size: 20px;
-    background-color: #5C2E7E;
-    color: #fff;
-    /* padding: 6px 17px; */
-    border-radius: 6px;
+  right: 130%;
+  bottom: 309px;
+  font-size: 20px;
+  background-color: #5c2e7e;
+  color: #fff;
+  /* padding: 6px 17px; */
+  border-radius: 6px;
 }
 
 /* .sixth-section li a
@@ -831,23 +831,21 @@ div p {
 }
 
 @keyframes hat {
-  0% { right: 50%; }
-  25% { right: 117%; }
-  50% { 
-    transform: translateY(10px);
-    right: 117%;
-   }
-  100% { transform: translateY(60px);
-    right: 117%;
-   }
-  /* from {
+  0% {
     right: 50%;
   }
-  to {
-    right: 115%;
-  } */
+  25% {
+    left: 117%;
+  }
+  50% {
+    transform: translateY(10px);
+    right: 117%;
+  }
+  100% {
+    transform: translateY(60px);
+    right: 117%;
+  }
 }
-
 
 /*end of sixth section animation*/
 
