@@ -246,7 +246,7 @@ main .wrapper {
   height: 90vh;
   border: 1px solid #808080;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 ul li img {
@@ -392,7 +392,9 @@ div p {
 
 .first-section li p,
 .second-section li p,
-.third-section li p {
+.third-section li p,
+.fourth-section li p,
+.fifth-section li p {
   text-indent: -9999px;
 }
 /*end of first section animation*/
@@ -651,13 +653,6 @@ div p {
   100% {
     opacity: 0;
   }
-  /* from {
-    right: 187%;
-  }
-  to {
-    right: 157%;
-    opacity: 0;
-  } */
 }
 /*end of second section animation*/
 
@@ -688,12 +683,6 @@ div p {
   100% {
     right: -3%;
   }
-  /* from {
-    right: -3%;
-  }
-  to {
-    right: 96%;
-  } */
 }
 
 .fourth-section div {
@@ -745,12 +734,6 @@ div p {
   100% {
     left: 285;
   }
-  /* from {
-    left: 282%;
-  }
-  to {
-    left: 180%;
-  } */
 }
 
 .fifth-section div {
@@ -776,12 +759,6 @@ div p {
   100% {
     left: 52%;
   }
-  /* from {
-    left: 52%;
-  }
-  to {
-    left: 159%;
-  } */
 }
 
 /*end of fifth section animation*/
@@ -827,7 +804,21 @@ div p {
   position: relative;
   right: 50%;
   bottom: 190px;
+  animation-name: hat;
+  animation-duration: 2s;
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
 }
+
+@keyframes hat {
+  from {
+    right: 50%;
+  }
+  to {
+    right: 115%;
+  }
+}
+
 
 /*end of sixth section animation*/
 
