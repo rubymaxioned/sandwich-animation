@@ -245,7 +245,8 @@ main .wrapper {
   width: 25%;
   height: 90vh;
   border: 1px solid #808080;
-  /* overflow: hidden; */
+
+  overflow: hidden;
 }
 
 ul li img {
@@ -337,7 +338,7 @@ div p {
 .third-section li:nth-of-type(4) {
   position: relative;
   right: 191%;
-  top: 176px;
+  top: 160px;
 }
 /*end of third section*/
 
@@ -671,7 +672,7 @@ div p {
   top: 110px;
   animation-name: happy;
   animation-duration: 4s;
-  animation-delay: 8s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
 }
 @keyframes happy {
@@ -701,7 +702,7 @@ div p {
   top: 88px;
   animation-name: ban;
   animation-duration: 4s;
-  animation-delay: 8s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
 }
 @keyframes ban {
@@ -820,6 +821,12 @@ div p {
   to {
     right: 100%;
   }
+}
+
+.sixth-section li:nth-of-type(3) {
+  position: relative;
+  right: 50%;
+  bottom: 190px;
 }
 
 /*end of sixth section animation*/
