@@ -245,7 +245,6 @@ main .wrapper {
   width: 25%;
   height: 90vh;
   border: 1px solid #808080;
-
   overflow: hidden;
 }
 
@@ -283,6 +282,7 @@ ul li img {
   left: -36%;
   bottom: 57px;
 }
+
 div p {
   position: relative;
   text-transform: capitalize;
@@ -593,7 +593,7 @@ div p {
 
 .third-section li:nth-of-type(5) {
   position: relative;
-  right: 252%; /*187*/
+  right: 252%;
   top: 43px;
   transform: rotate(316deg);
   animation-name: knife;
