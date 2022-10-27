@@ -245,8 +245,7 @@ main .wrapper {
   width: 25%;
   height: 90vh;
   border: 1px solid #808080;
-
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 ul li img {
