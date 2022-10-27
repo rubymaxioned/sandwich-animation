@@ -563,8 +563,8 @@ div p {
 .third-section li:nth-of-type(4) {
   opacity: 0;
   animation-name: mayo;
-  animation-duration: 2s;
-  animation-delay: 7s;
+  animation-duration: 3s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 
@@ -580,6 +580,9 @@ div p {
     opacity: 0.7;
   }
   75% {
+    opacity: 0.8;
+  }
+  95% {
     opacity: 0.8;
   }
   100% {
@@ -730,13 +733,26 @@ div p {
   position: relative;
   right: 130%;
   bottom: 309px;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #5c2e7e;
   color: #fff;
-  /* padding: 6px 17px; */
+  padding: 6px 17px;
   border-radius: 6px;
+  text-transform: capitalize;
+  animation-name: button;
+  animation-duration: 1s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
 }
 
+@keyframes button {
+  from {
+    right: 130%;
+  }
+  to {
+    right: 45%;
+  }
+}
 /* .sixth-section li a
 {
   background-color: #5C2E7E;
@@ -759,7 +775,7 @@ div p {
     right: 14%;
   }
   to {
-    right: 84%;
+    right: 75%;
   }
 }
 
@@ -778,34 +794,34 @@ div p {
     right: 168%;
   }
   to {
-    right: 90%;
+    right: 80%;
   }
 }
 
 .sixth-section li:nth-of-type(3) {
   position: relative;
-  right: 50%;
+  right: 175%;
   bottom: 190px;
   animation-name: hat;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 18s;
   animation-fill-mode: forwards;
 }
 
 @keyframes hat {
   0% {
-    right: 50%;
+    right: 175%;
   }
   25% {
-    left: 117%;
+    right: 105%;
   }
   50% {
     transform: translateY(10px);
-    right: 117%;
+    right: 105%;
   }
   100% {
     transform: translateY(60px);
-    right: 117%;
+    right: 105%;
   }
 }
 
